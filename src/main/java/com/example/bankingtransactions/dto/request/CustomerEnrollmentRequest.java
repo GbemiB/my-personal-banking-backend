@@ -7,7 +7,9 @@ import lombok.Data;
 public class CustomerEnrollmentRequest {
     GeneralRequest generalRequest = new GeneralRequest();
     private String accountId;
-    private String accountName;
+    private String accountFirstName;
+    private String accountLastName;
+    private String accountMiddleName;
     private String accountNumber;
     private String accountType;
     private String accountBVN;
@@ -18,6 +20,7 @@ public class CustomerEnrollmentRequest {
     private String accountOfficer;
     private String tellerAgent;
     private String AccountOwnerDOB;
+    private int age;
     private String AccountOwnerWeight;
     private String AccountOwnerHeight;
     private String AccountOwnerPlaceOfBirth;
