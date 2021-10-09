@@ -15,4 +15,20 @@ public class CustomerEnrollment {
     private String accountBranchCode;
     private String accountCityCode;
     private String accountCountryCode;
+
+    @Override
+    public String toString() {
+        return "CustomerEnrollment{" +
+                "accountId='" + accountId + '\'' +
+                ", accountFirstName='" + accountFirstName + '\'' +
+                ", accountLastName='" + accountLastName + '\'' +
+                ", accountMiddleName='" + accountMiddleName + '\'' +
+                ", accountNumber='" + accountNumber + '\'' +
+                ", accountType='" + accountType + '\'' +
+                ", accountBVN='" + accountBVN + '\'' +
+                ", accountBranchCode='" + accountBranchCode + '\'' +
+                ", accountCityCode='" + accountCityCode + '\'' +
+                ", accountCountryCode='" + accountCountryCode + '\'' +
+                '}';
+    }
 }
